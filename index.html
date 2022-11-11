@@ -6,94 +6,99 @@
     <title>
         Personal Website
     </title>
+    <style>
+        body{
+            background-color: beige;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        img.dp{
+            height: 100px;
+            width: 100px;
+            border-radius: 60%;
+            box-shadow: 2px 2px teal;
+        }
+        hr{
+            border-style: dashed;
+            height: auto ;
+            width: 30%;
+        }
+        table.t2{
+            border: blue dashed;
+            background-color: palegreen;
+            border-width: 2px;
+            border-radius: 5%;
+            row-gap: 10px;
+            column-gap: 1px;       
+        }
+        a.web{
+            font-style: unset;
+            box-shadow: inset 0 0 0 0 #54b3d6;
+            color: #000000;
+            padding: 0 ;
+            margin: 0 ;
+            transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+            text-decoration: none;
+        }
+        img{
+            font-style: unset;
+            box-shadow: inset 0 0 0 0 #54b3d6;
+            color: #000000;
+            padding: 0 ;
+            margin: 0 ;
+            transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+            text-decoration: none;
+        }
+        a.socials:hover{
+            box-shadow: inset 90px 0 0 0 #54b3d6;
+            color: white;
+        }
+        a.web:hover{
+            box-shadow: inset 90px 0 0 0 #54b3d6;
+            color: white;
+        }
+        a.socials{
+            font-style: unset;
+            box-shadow: inset 0 0 0 0 #54b3d6;
+            color: #000000;
+            padding: 0 ;
+            margin: 0 ;
+            transition: color .5s ease-in-out, box-shadow .5s ease-in-out;
+            text-decoration: none;
+        }
+        a.socials:hover{
+            box-shadow: inset 100px 0 0 0 #54b3d6;
+            color: white;
+        }
+        
+        
+    </style>
 </head>
 
-<body>
+<body >
     <h1>Portfolio Website</h1>
-    <!-- <h2>Introduction</h2> -->
-    <table>
+    <table class="t1">
         <tr>
-            <!-- <th>Introduction</th> -->
-            <td>
-                <!-- <img src="dp.jpg" alt="me:-)" height="100 px" width="100 px"> -->
-            </td>
             <td>
                 <br>Hey, <em>Sushmit</em> Here!<br>
-                I am an Information Science Student at <a href="https://www.msrit.edu">MSRIT</a>.<br>
+                I am an Information Science Student at <a href="https://www.msrit.edu"class="web">MSRIT</a>.<br>
                 I am a <strong>Cyber Security</strong> enthusiast and <strong>Web Developer</strong>.
                 I am currently a pre-final year student looking for an internship.</p>
             </td>
             <td>
-                <img src="dp.jpg" alt="me:-)" height="100 px" width="100 px">
+                <img src="dp.jpg" alt="me:-)" class="dp">
             </td>
         </tr>
     </table>
-    <hr size="3">
+    <hr>
     <h2>Skills</h2>
-    <table cellspacing="1">
-        <tr>
-            <td>
-                <ul>
-                    <li> C++ </li>
-                </ul>
-            </td>
-            <td>
-                🟡🟡🟡🟡🟡
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <ul>
-                    <li> Java </li>
-                </ul>
-            </td>
-            <td>
-                🟡🟡🟡🟡🟡
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <ul>
-                    <li> Web Development </li>
-                </ul>
-            </td>
-            <td>
-                🟡🟡🟡🟡🟡
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <ul>
-                    <li> VAPT </li>
-                </ul>
-            </td>
-            <td>
-                🟡🟡🟡🟡🟡
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <ul>
-                    <li> Penetration Testing </li>
-                </ul>
-            </td>
-            <td>
-                🟡🟡🟡🟡🟡
-            </td>
-        </tr>
-    </table>
-    <hr size="3">
+    <div class="skills"><a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/><a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a></div>
+    <hr>
     <h3>Education Details</h3>
     <table>
         <tr>
             <td>
-                <ul>
-                    <li> MS Ramaiah Institute of Technology,Bengaluru</li>
-                    <ul>
-                        <!-- 2020-2024 -->
+                MS Ramaiah Institute of Technology,Bengaluru<br>
                         <li>B.E.(Information Science & Engg.)</li>
-                    </ul>
-                </ul>
             </td>
             <td>
                 2020-2024
@@ -101,29 +106,23 @@
         </tr>
         <tr>
             <td>
-                <ul>
-                    <li> G.N.National Public School,Gorakhpur</li>
-                    <ul>
-                        <!-- 2016-2020 -->
+                G.N.National Public School,Gorakhpur
                         <li>Class X: 95.8%</li>
                         <li>Class XII: 91.2%</li>
-                    </ul>
-                </ul>
             </td>
             <td>
                 2016-2020
             </td>
         </tr>
     </table>
-    <hr size="3">
+    <hr>
     <h3>Achievements:</h3>
-    <ul>
-        <li>State Rank 7 in NTSE Stage 1(Nov. 2017)</li>
-        <li>Consolotion Prize(9th Place) in MQ+ Quiz organized by NumeraRIT(June 2022)</li>
-    </ul>
-    <hr size="3">
-    <h3><a href="contact.html">My Socials!</a>😁</h3>
+    <li>State Rank 7 in NTSE Stage 1(Nov. 2017)</li>
+    <li>Consolotion Prize(9th Place) in MQ+ Quiz organized by NumeraRIT(June 2022)</li>
+    <hr>
+    <h3><a href="contact.html"class="socials">My Socials!</a>😁</h3>
 
 
 </body>
+
 </html>
